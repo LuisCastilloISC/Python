@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Bienvenido al sistema de manejo de personas</h1>
+    <div>
+        <a href="nueva_persona"> Agregar</a>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for persona in personas %}
+                <tr>
+                    <td>{{persona.id}}</td>
+                    <td> {{persona.nombre}}{{persona.apellido}}</td>
+                    <td> {{persona.email}}</td>
+                    <td> <a href="detalle_persona/{{persona.id}}"> Ver detalle</a></td>
+                    <td> <a href="editarPersona/{{persona.id}}"> Editar</a></td>
+                    <td> <a href="eliminarPersona/{{persona.id}}"> Eliminar</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+
+        
+
+
+
+    </div>
+</body>
+
+</html>

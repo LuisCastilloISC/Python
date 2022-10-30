@@ -1,0 +1,15 @@
+09:36:16 AM: DEBUG [logger_base.py]:13 Mensaje Debug
+09:38:19 AM: DEBUG [commits.py]:19 Sentencia Insert
+09:38:19 AM: DEBUG [commits.py]:23 Sentencia Update
+09:38:19 AM: DEBUG [commits.py]:25 Cambios guardados
+09:39:11 AM: ERROR [commits.py]:28 relation "client" does not exist
+LINE 1: INSERT INTO client(nombre,apellido,email) Values('Juan','Per...
+                    ^
+
+09:21:42 AM: DEBUG [with.py]:20 Registros insertados: 1
+09:24:26 AM: DEBUG [with.py]:26 Registros insertados: 3
+09:30:40 AM: DEBUG [delete.py]:20 Registros Eliminados:1
+09:32:12 AM: DEBUG [delete.py]:21 Registros Eliminados:1
+09:34:00 AM: ERROR [delete.py]:24 not all arguments converted during string formatting
+09:34:20 AM: DEBUG [delete.py]:21 Registros Eliminados:4
+09:40:38 AM: DEBUG [update.py]:23 Registros Actualizados: 2

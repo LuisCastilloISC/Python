@@ -1,0 +1,251 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+DEBUG:app:Entramos al path index
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:23:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:32:01] "[33mGET /edad/24 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:32:20] "GET /edad/24 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:35:06] "GET /edad/24 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:35:56] "[31m[1mPOST /edad/24 HTTP/1.1[0m" 405 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:45:10] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 930-476-714
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 09:45:35] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:app:Exception on /salir [GET]
+Traceback (most recent call last):
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\app.py", line 23, in salir
+    return abort(404)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\werkzeug\exceptions.py", line 881, in abort
+    _aborter(status, *args, **kwargs)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\werkzeug\exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 1666, in handle_user_exception
+    return self.handle_http_exception(e)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 1606, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\app.py", line 27, in paginaNoEncontrada
+    return render_template('404.html',error=error) , 404
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(app, template, context)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\templating.py", line 130, in _render
+    rv = template.render(context)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\templates\404.html", line 4, in top-level template code
+    <link rel="stylesheet" href="{{url_for('est', filename='style/404.css')}}">
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 2031, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\flask\app.py", line 2020, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+  File "C:\Users\luis\Documents\TEC\PYTHON\FLASK Clase\Proyecto 1\.venv\lib\site-packages\werkzeug\routing\map.py", line 917, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'est' with values ['filename']. Did you mean 'static' instead?
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:34:25] "[35m[1mGET /salir HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:35:20] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:35:21] "GET /static/style/404.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:35:28] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:35:28] "[36mGET /static/style/404.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:36:15] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:36:16] "GET /static/estilos/404.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:39:40] "[33mPOST /juego HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:39:40] "[36mGET /static/estilos/404.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:39:44] "[33mPOST /juego HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:39:45] "[36mGET /static/estilos/404.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:40:25] "[31m[1mPOST /juego HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:40:56] "[31m[1mPOST /juego HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:52:52] "[31m[1mPOST /juego HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:53:46] "POST /juego HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:54:39] "POST /juego HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+DEBUG:app:TOKEN1
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 13:56:41] "POST /juego HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 19:02:53] "[33mGET /juego/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Oct/2022 19:02:54] "[33mGET /static/estilos/404.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+DEBUG:app:Entramos al path index
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:17:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:17:47] "[33mGET /salir HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:17:47] "GET /static/estilos/404.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:24:27] "[33mPOST /juego HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:24:27] "GET /static/estilos/404.css HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:25:06] "POST /juego HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:28:43] "GET /juego/1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:22] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:54] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:54] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:42:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:23] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:43:23] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-388-361
+DEBUG:app:TOKENx
+INFO:werkzeug:127.0.0.1 - - [20/Oct/2022 09:47:43] "POST /juego HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\luis\\Documents\\TEC\\PYTHON\\FLASK Clase\\Proyecto 1\\app.py', reloading
+INFO:werkzeug: * Restarting with stat

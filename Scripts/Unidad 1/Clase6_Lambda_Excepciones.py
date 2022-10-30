@@ -1,4 +1,4 @@
-#lambda arguments : expression
+#lambda arguments : expression 
 (lambda *n:print(sum(n)))(*list(range(0,101,1)))
 def multiplicador(n):
     return lambda a:print(a*n)
