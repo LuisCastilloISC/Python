@@ -1,4 +1,4 @@
-from flask import Blueprint, request,jsonify
+from flask import Blueprint, request,jsonify,render_template
 from sqlalchemy import exc
 from models import Images
 from app import db,bcrypt
@@ -12,6 +12,16 @@ imageUser = Blueprint('imageUser',__name__,template_folder="templates")
 def render_image(data):
     render_pic = base64.b64encode(data).decode('ascii')
     return render_pic
+
+@imageUser.route("/displayImage", methods=["GET"])
+@tokenCheck
+def displayImage(usuario):
+        searchImage = Images.query.filter_by(user_id = usuario['user_id']).first()
+        if searchImage:
+            image = searchImage.rendered_data
+            return render_template('PerfilUsuario.html',img_data=image)
+        else:
+            return jsonify({"message":"No image"})
 
 @imageUser.route('/uploadPerfil' , methods =['POST'])
 @tokenCheck
@@ -42,4 +52,5 @@ def upload(usuario):
     except exc.SQLAlchemyError as e:
         print(e)
         return jsonify({"message":"Error"})
+
 
